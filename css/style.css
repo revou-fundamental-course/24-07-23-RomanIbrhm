@@ -187,6 +187,7 @@ article > p {
     height: 30px;
     border-radius: 10px;
     opacity: 70%;
+    width: 100%;
 }
 
 #lname {
@@ -194,6 +195,7 @@ article > p {
     height: 30px;
     border-radius: 10px;
     opacity: 70%;
+    width: 100%;
 }
 
 #email {
@@ -201,6 +203,7 @@ article > p {
     height: 30px;
     border-radius: 10px;
     opacity: 70%;
+    width: 100%;
 }
 
 #destination {
@@ -281,7 +284,7 @@ button:hover::after {
 .bali {
     width: 200px;
     height: 120px;
-    background-color: #8062d6;
+    background-color: #cbb7ff;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -292,7 +295,7 @@ button:hover::after {
 .japan {
     width: 200px;
     height: 120px;
-    background-color: #8062d6;
+    background-color: #cbb7ff;
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 50px;
@@ -300,7 +303,7 @@ button:hover::after {
 .singapore {
     width: 200px;
     height: 120px;
-    background-color: #8062d6;
+    background-color: #cbb7ff;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -310,7 +313,7 @@ button:hover::after {
 .bandung {
     width: 200px;
     height: 120px;
-    background-color: #8062d6;
+    background-color: #cbb7ff;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -320,7 +323,7 @@ button:hover::after {
 .surabaya {
     width: 200px;
     height: 120px;
-    background-color: #8062d6;
+    background-color: #cbb7ff;
     margin-bottom: 50px;
     margin-top: 30px;
     border-radius: 50px;
@@ -328,7 +331,7 @@ button:hover::after {
 .banda-neira {
     width: 200px;
     height: 120px;
-    background-color: #8062d6;
+    background-color: #cbb7ff;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -359,8 +362,17 @@ button:hover::after {
     }
 
     #form {
-        margin: 60px;
-        width: 680px;
+        margin: 100px;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
     }
 
+    #form > form {
+        width: 60%;
+    }
+
+    #article > ul > li {
+        text-align: center;
+    }
 }
