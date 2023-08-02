@@ -102,7 +102,7 @@ h1 {
 
 article > p {
     text-align: center;
-    background-color: #9288f8;
+    background-color: #cbb7ff;
     width: 80%;
     height: auto;
     margin-right: auto;
@@ -126,7 +126,7 @@ article > p {
     width: 10%;
     /* margin-top: 0; */
     margin-left: auto;
-    background-color: #9288f8;
+    background-color: #cbb7ff;
     border-radius: 100%;
 }
 
@@ -134,7 +134,7 @@ article > p {
     font-size: 15px;
     margin-top: 25px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #9288f8;
+    background-color: #cbb7ff;
     width: 35%;
     height: auto;
     margin-right: auto;
@@ -150,7 +150,7 @@ article > p {
 }
 
 .benefit {
-    background-color: #9288f8;
+    background-color: #cbb7ff;
     border: 1px solid black;
     width: 80%;
     height: auto;
@@ -356,8 +356,6 @@ button:hover::after {
     width: 100%;
     cursor: pointer;
 }
-
-
 
 /* media query */
 @media screen and (max-width: 550px) {
